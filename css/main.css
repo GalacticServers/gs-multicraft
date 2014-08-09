@@ -1,0 +1,335 @@
+
+div.flash-error, div.flash-notice, div.flash-success
+{
+    padding:.8em;
+    margin-bottom:1em;
+    border:2px solid #ddd;
+}
+
+div.flash-error
+{
+    background:#FBE3E4;
+    color:#8a1f11;
+    border-color:#FBC2C4;
+}
+
+div.flash-notice
+{
+    background:#FFF6BF;
+    color:#514721;
+    border-color:#FFD324;
+}
+
+div.flash-success
+{
+    background:#E6EFC2;
+    color:#264409;
+    border-color:#C6D880;
+}
+
+div.flash-error a
+{
+    color:#8a1f11;
+}
+
+div.flash-notice a
+{
+    color:#514721;
+}
+
+div.flash-success a
+{
+    color:#264409;
+}
+
+div.form .rememberMe label
+{
+    display: inline;
+}
+
+div.view
+{
+    height: 35px;
+    margin: 10px 0;
+    border: 1px solid #dedede;
+}
+div.view a
+{
+    font: bold 12px Arial;
+    padding: 0px;
+    color: #444;
+    text-decoration: none;
+}
+
+div.view a:hover
+{
+    text-decoration: underline;
+}
+
+div.view:hover
+{
+    background-color: #efefef;
+}
+
+div.breadcrumbs
+{
+    font-size: 0.9em;
+    padding: 5px 20px;
+    padding-bottom: 0px;
+}
+
+div.breadcrumbs span
+{
+    font-weight: bold;
+}
+
+div.search-form
+{
+    padding: 10px;
+    margin: 10px 0;
+    background: #eee;
+}
+
+.portlet {
+    border: 1px solid #eee;
+    background: #fff;
+}
+.portlet-title {
+    padding: 5px;
+    border-bottom: 1px solid #eee;
+    box-shadow: 0 1px 0 #fff;
+    text-transform: uppercase;
+    font-weight: 200;
+    color: #777;
+}
+.portlet li {
+    position: relative;
+}
+.portlet li i {
+    width: 1em;
+    text-align: center;
+}
+
+.operations
+{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+.operations img
+{
+    padding-right: 6px;
+    position: absolute;
+    top: 6px;
+    left: 8px;
+}
+
+.operations li
+{
+    padding-bottom: 0px;
+}
+
+.operations li a:hover {
+    color: #666;
+    background: #dbdbdb;
+}
+
+.operations li a:hover i {
+    color: #00ccff;
+}
+
+.operations li a
+{
+    margin-right: 0px;
+    display: block;
+    padding: 6px;
+    text-decoration: none;
+    color: #666;
+    text-shadow: 0 1px 0 #fff;
+}
+
+
+.leftbox
+{ 
+    margin-top: 10px;
+    margin-left: 14px;
+    margin-right: 14px;
+    float: left;
+    display: block;
+    width: 150px;
+    background-color: #f4f4f4;
+}
+
+.rightbox
+{ 
+    margin-top: 9px;
+    position: relative;
+    float: left;
+    display: block;
+    overflow: hidden;
+    width: 765px;
+}
+
+.box_title
+{
+    margin: 0px;
+    width: auto;
+    height: 25px;
+    display: block;
+}
+
+.box_title h4
+{
+    padding: 1px 70px 1px 5px;
+    font-size: 12px;
+    font-weight: bold;
+}
+
+.stdtable
+{
+    width: 100%;
+    padding: 0px;
+    margin: 0;
+}
+
+.stdtable td
+{
+    margin: 0px;
+    padding: 2px;
+}
+
+.stdtable td.textcell
+{
+    padding-left: 7px;
+    padding-right: 7px;
+    padding-top: 4px;
+    padding-bottom: 4px;
+    text-align: left;
+}
+
+.stdtable td.pricecell
+{
+    text-align: center;
+}
+
+.stdtable td.titlecell
+{
+    padding: 4px;
+    border-bottom: 2px #000000 solid;
+    text-align: left;
+}
+
+.stdtable tr.even td
+{
+    margin: 0px;
+    background-color: #e5e5e5;
+}
+
+.stdtable tr.odd td
+{
+    margin: 0px;
+    background-color: #f4f4f4;
+}
+
+.stdtable tr.green td
+{
+    margin: 0px;
+    background-color: #dae4ec;
+}
+
+.stdtable tr.linerow td
+{
+    margin: 0px;
+    padding: 0px;
+    background-color: #555;
+    height: 1px;
+}
+
+.stdtable tr.titlerow td
+{
+    padding: 4px;
+    font-weight: normal;
+    font-size: 14px;
+}
+
+.stdtable tr.titlerow td.textcell
+{
+    text-align: left;
+    width: auto;
+}
+
+.stdtable tr.titlerow td.large
+{
+    width: auto;
+}
+
+.stdtable td.titlecell
+{
+    padding: 4px;
+    text-align: left;
+    border-right: 1px #000000 solid;
+}
+
+.stdtable tr td.amount
+{
+    padding-right: 10px;
+    text-align: right
+}
+
+a
+{
+    color: #444444;
+}
+
+.code
+{
+    white-space: pre;
+    overflow: auto;
+    font-family: "Courier New" Courier monospace;
+    margin: 5px;
+    padding: 10px;
+    padding-left: 20px;
+    border: 1px solid #555;
+    background-color: #efefef;
+}
+
+.infoBox
+{
+    border: 1px solid grey;
+    padding: 5px;
+    padding-top: 6px;
+    padding-left: 30px;
+    font-size: 11px;
+    background: url("../images/icons/info.png") no-repeat;
+    background-position: 6px 6px;
+}
+
+.logArea
+{
+        border: 1px solid #dfdfdf;
+        background-color: #f4f4f4;
+        height: 400px;
+        width: 100%;
+}
+
+.pluginActionPending
+{
+    float: left;
+    padding-left: 8px;
+    padding-top: 2px;
+}
+
+div[style="padding: 10px; margin: 10px 20px; font-size: 0.8em; text-align: center; border-top: 1px solid #dfdfdf;"] {
+    display:none;
+}
+
+.portlet li ul {
+    margin: 0;
+    padding: 0 0 0 10px;
+    border-left: 2px solid #ccc;
+    border-right: 2px solid #ccc;
+}
+.portlet li li {
+    list-style-type: none;
+}
